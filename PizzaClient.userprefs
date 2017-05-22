@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{5B85CA15-1FAE-45C2-992F-BB2CE5BD7EC7}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="PizzaClient/PizzasActivity.cs">
     <Files>
-      <File FileName="PizzaClient/PizzasActivity.cs" Line="80" Column="13" />
+      <File FileName="PizzaClient/PizzasActivity.cs" Line="78" Column="4" />
       <File FileName="PizzaClient/MainActivity.cs" Line="12" Column="35" />
       <File FileName="PizzaClient/PizzaAdapter.cs" Line="39" Column="106" />
     </Files>

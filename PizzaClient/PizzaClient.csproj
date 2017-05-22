@@ -96,6 +96,7 @@
     <AndroidResource Include="Resources\drawable\ic_local_pizza_white_48dp.png" />
     <AndroidResource Include="Resources\layout\activity_pizzas.xml" />
     <AndroidResource Include="Resources\layout\item_layout_pizza.xml" />
+    <AndroidResource Include="Resources\layout\dialog_item_layout.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

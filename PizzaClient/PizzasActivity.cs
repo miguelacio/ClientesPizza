@@ -79,6 +79,19 @@ namespace PizzaClient
 			Pizza pizza = pizzasList.ElementAt(e);
 
 
+			//Inflate layout
+            View view = LayoutInflater.Inflate(Resource.Layout.dialog_item_layout, null);
+			AlertDialog builder = new AlertDialog.Builder(this).Create();
+			builder.SetView(view);
+			builder.SetCanceledOnTouchOutside(false);
+			Button button = view.FindViewById<Button>(Resource.Id.btnClearLL);
+			button.Click += delegate
+			{
+				builder.Dismiss();
+				Toast.MakeText(this, "Alert dialog dismissed!", ToastLength.Short).Show();
+			};
+			builder.Show();
+
 		}
 	}
 }
