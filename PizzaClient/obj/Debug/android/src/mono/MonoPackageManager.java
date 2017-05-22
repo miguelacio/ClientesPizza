@@ -99,14 +99,14 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "PizzaClient.dll" comes first in this list. */
 		"PizzaClient.dll",
-		"Xamarin.Android.Support.v4.dll",
-		"Xamarin.Android.Support.v7.RecyclerView.dll",
-		"Xamarin.Android.Support.Vector.Drawable.dll",
-		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
-		"Xamarin.Android.Support.v7.AppCompat.dll",
-		"Xamarin.Android.Support.v7.CardView.dll",
 		"Newtonsoft.Json.dll",
 		"Newtonsoft.Json.Schema.dll",
+		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
+		"Xamarin.Android.Support.v4.dll",
+		"Xamarin.Android.Support.v7.AppCompat.dll",
+		"Xamarin.Android.Support.v7.CardView.dll",
+		"Xamarin.Android.Support.v7.RecyclerView.dll",
+		"Xamarin.Android.Support.Vector.Drawable.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

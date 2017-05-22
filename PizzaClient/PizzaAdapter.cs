@@ -28,12 +28,17 @@ namespace PizzaClient
 		{
 
 			ViewHolder viewHolder = holder as ViewHolder;
+            viewHolder.Nombre.Text = pizzaList[position].nombre;
+
+			
 	
 		}
 
 		public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
 		{
-			throw new NotImplementedException();
+            View itemView = LayoutInflater.From(parent.Context).Inflate(Resource.Layout.item_layout_pizza, parent, false);
+			ViewHolder cv = new ViewHolder(itemView, OnClick);
+			return cv;
 		}
 
 		 public class ViewHolder : RecyclerView.ViewHolder
