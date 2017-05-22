@@ -1534,8 +1534,8 @@ namespace PizzaClient
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f070056
-			public const int action0 = 2131165270;
+			// aapt resource value: 0x7f07005e
+			public const int action0 = 2131165278;
 			
 			// aapt resource value: 0x7f070042
 			public const int action_bar = 2131165250;
@@ -1561,8 +1561,8 @@ namespace PizzaClient
 			// aapt resource value: 0x7f070043
 			public const int action_context_bar = 2131165251;
 			
-			// aapt resource value: 0x7f07005a
-			public const int action_divider = 2131165274;
+			// aapt resource value: 0x7f070062
+			public const int action_divider = 2131165282;
 			
 			// aapt resource value: 0x7f070003
 			public const int action_menu_divider = 2131165187;
@@ -1591,17 +1591,23 @@ namespace PizzaClient
 			// aapt resource value: 0x7f07001a
 			public const int beginning = 2131165210;
 			
+			// aapt resource value: 0x7f070059
+			public const int btnClearLL = 2131165273;
+			
+			// aapt resource value: 0x7f070058
+			public const int btnLoginLL = 2131165272;
+			
 			// aapt resource value: 0x7f07002c
 			public const int buttonPanel = 2131165228;
 			
-			// aapt resource value: 0x7f070057
-			public const int cancel_action = 2131165271;
+			// aapt resource value: 0x7f07005f
+			public const int cancel_action = 2131165279;
 			
 			// aapt resource value: 0x7f07003a
 			public const int checkbox = 2131165242;
 			
-			// aapt resource value: 0x7f07005d
-			public const int chronometer = 2131165277;
+			// aapt resource value: 0x7f070065
+			public const int chronometer = 2131165285;
 			
 			// aapt resource value: 0x7f07001e
 			public const int collapseActionView = 2131165214;
@@ -1630,8 +1636,8 @@ namespace PizzaClient
 			// aapt resource value: 0x7f07001b
 			public const int end = 2131165211;
 			
-			// aapt resource value: 0x7f070062
-			public const int end_padder = 2131165282;
+			// aapt resource value: 0x7f07006a
+			public const int end_padder = 2131165290;
 			
 			// aapt resource value: 0x7f070026
 			public const int expand_activities_button = 2131165222;
@@ -1654,23 +1660,32 @@ namespace PizzaClient
 			// aapt resource value: 0x7f070027
 			public const int image = 2131165223;
 			
-			// aapt resource value: 0x7f070055
-			public const int image_view_pedidos = 2131165269;
+			// aapt resource value: 0x7f07005d
+			public const int image_view_pedidos = 2131165277;
 			
-			// aapt resource value: 0x7f070054
-			public const int image_view_pedir = 2131165268;
+			// aapt resource value: 0x7f07005c
+			public const int image_view_pedir = 2131165276;
 			
-			// aapt resource value: 0x7f070061
-			public const int info = 2131165281;
+			// aapt resource value: 0x7f070069
+			public const int info = 2131165289;
 			
 			// aapt resource value: 0x7f070000
 			public const int item_touch_helper_previous_elevation = 2131165184;
 			
-			// aapt resource value: 0x7f07005b
-			public const int line1 = 2131165275;
+			// aapt resource value: 0x7f070055
+			public const int lblPassword = 2131165269;
 			
-			// aapt resource value: 0x7f07005f
-			public const int line3 = 2131165279;
+			// aapt resource value: 0x7f070053
+			public const int lblUsername = 2131165267;
+			
+			// aapt resource value: 0x7f070063
+			public const int line1 = 2131165283;
+			
+			// aapt resource value: 0x7f070067
+			public const int line3 = 2131165287;
+			
+			// aapt resource value: 0x7f070057
+			public const int linearLayoutBtns = 2131165271;
 			
 			// aapt resource value: 0x7f07000a
 			public const int listMode = 2131165194;
@@ -1678,8 +1693,8 @@ namespace PizzaClient
 			// aapt resource value: 0x7f070029
 			public const int list_item = 2131165225;
 			
-			// aapt resource value: 0x7f070059
-			public const int media_actions = 2131165273;
+			// aapt resource value: 0x7f070061
+			public const int media_actions = 2131165281;
 			
 			// aapt resource value: 0x7f07001c
 			public const int middle = 2131165212;
@@ -1783,8 +1798,8 @@ namespace PizzaClient
 			// aapt resource value: 0x7f070019
 			public const int src_over = 2131165209;
 			
-			// aapt resource value: 0x7f070058
-			public const int status_bar_latest_event_content = 2131165272;
+			// aapt resource value: 0x7f070060
+			public const int status_bar_latest_event_content = 2131165280;
 			
 			// aapt resource value: 0x7f07004d
 			public const int submit_area = 2131165261;
@@ -1792,32 +1807,41 @@ namespace PizzaClient
 			// aapt resource value: 0x7f07000c
 			public const int tabMode = 2131165196;
 			
-			// aapt resource value: 0x7f070060
-			public const int text = 2131165280;
+			// aapt resource value: 0x7f070068
+			public const int text = 2131165288;
 			
-			// aapt resource value: 0x7f07005e
-			public const int text2 = 2131165278;
+			// aapt resource value: 0x7f070066
+			public const int text2 = 2131165286;
 			
 			// aapt resource value: 0x7f070035
 			public const int textSpacerNoButtons = 2131165237;
 			
-			// aapt resource value: 0x7f070052
-			public const int textView1 = 2131165266;
+			// aapt resource value: 0x7f07005a
+			public const int textView1 = 2131165274;
 			
-			// aapt resource value: 0x7f070053
-			public const int textView2 = 2131165267;
+			// aapt resource value: 0x7f07005b
+			public const int textView2 = 2131165275;
 			
-			// aapt resource value: 0x7f07005c
-			public const int time = 2131165276;
+			// aapt resource value: 0x7f070064
+			public const int time = 2131165284;
 			
 			// aapt resource value: 0x7f07002b
 			public const int title = 2131165227;
+			
+			// aapt resource value: 0x7f070052
+			public const int titleLogin = 2131165266;
 			
 			// aapt resource value: 0x7f070030
 			public const int title_template = 2131165232;
 			
 			// aapt resource value: 0x7f07002f
 			public const int topPanel = 2131165231;
+			
+			// aapt resource value: 0x7f070056
+			public const int txtPassword = 2131165270;
+			
+			// aapt resource value: 0x7f070054
+			public const int txtUsername = 2131165268;
 			
 			// aapt resource value: 0x7f070009
 			public const int up = 2131165193;
@@ -1951,46 +1975,49 @@ namespace PizzaClient
 			public const int activity_pizzas = 2130968601;
 			
 			// aapt resource value: 0x7f04001a
-			public const int item_layout_pizza = 2130968602;
+			public const int dialog_item_layout = 2130968602;
 			
 			// aapt resource value: 0x7f04001b
-			public const int Main = 2130968603;
+			public const int item_layout_pizza = 2130968603;
 			
 			// aapt resource value: 0x7f04001c
-			public const int notification_media_action = 2130968604;
+			public const int Main = 2130968604;
 			
 			// aapt resource value: 0x7f04001d
-			public const int notification_media_cancel_action = 2130968605;
+			public const int notification_media_action = 2130968605;
 			
 			// aapt resource value: 0x7f04001e
-			public const int notification_template_big_media = 2130968606;
+			public const int notification_media_cancel_action = 2130968606;
 			
 			// aapt resource value: 0x7f04001f
-			public const int notification_template_big_media_narrow = 2130968607;
+			public const int notification_template_big_media = 2130968607;
 			
 			// aapt resource value: 0x7f040020
-			public const int notification_template_lines = 2130968608;
+			public const int notification_template_big_media_narrow = 2130968608;
 			
 			// aapt resource value: 0x7f040021
-			public const int notification_template_media = 2130968609;
+			public const int notification_template_lines = 2130968609;
 			
 			// aapt resource value: 0x7f040022
-			public const int notification_template_part_chronometer = 2130968610;
+			public const int notification_template_media = 2130968610;
 			
 			// aapt resource value: 0x7f040023
-			public const int notification_template_part_time = 2130968611;
+			public const int notification_template_part_chronometer = 2130968611;
 			
 			// aapt resource value: 0x7f040024
-			public const int select_dialog_item_material = 2130968612;
+			public const int notification_template_part_time = 2130968612;
 			
 			// aapt resource value: 0x7f040025
-			public const int select_dialog_multichoice_material = 2130968613;
+			public const int select_dialog_item_material = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int select_dialog_singlechoice_material = 2130968614;
+			public const int select_dialog_multichoice_material = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int support_simple_spinner_dropdown_item = 2130968615;
+			public const int select_dialog_singlechoice_material = 2130968615;
+			
+			// aapt resource value: 0x7f040028
+			public const int support_simple_spinner_dropdown_item = 2130968616;
 			
 			static Layout()
 			{

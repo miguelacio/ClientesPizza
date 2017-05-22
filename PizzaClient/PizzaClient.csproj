@@ -69,6 +69,9 @@
     <Reference Include="Newtonsoft.Json.Schema">
       <HintPath>..\packages\Newtonsoft.Json.Schema.2.0.11\lib\netstandard1.3\Newtonsoft.Json.Schema.dll</HintPath>
     </Reference>
+    <Reference Include="System.Json" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -77,6 +80,7 @@
     <Compile Include="PizzasActivity.cs" />
     <Compile Include="PizzaAdapter.cs" />
     <Compile Include="Pizza.cs" />
+    <Compile Include="Pedido.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
