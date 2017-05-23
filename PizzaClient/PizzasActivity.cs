@@ -114,8 +114,8 @@ namespace PizzaClient
                 p.direccion = direccion.Text.ToString();
                 if (_currentLocation != null)
                 {
-                    p.latitud = _currentLocation.Latitude.ToString();
-                    p.longitud = _currentLocation.Longitude.ToString();
+                   // p.latitud = _currentLocation.Latitude.ToString();
+                    //p.longitud = _currentLocation.Longitude.ToString();
 
                 }
 

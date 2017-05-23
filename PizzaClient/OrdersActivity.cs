@@ -82,7 +82,7 @@ namespace PizzaClient
 
             var Intent = new Intent(this, typeof(OrderDetailActivity));
 
-            Intent.PutExtra("id", pedido.id_pizza);
+            Intent.PutExtra("id", pedido.id);
 
             StartActivity(Intent);
 

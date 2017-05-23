@@ -1600,6 +1600,9 @@ namespace PizzaClient
 			// aapt resource value: 0x7f07002c
 			public const int buttonPanel = 2131165228;
 			
+			// aapt resource value: 0x7f070076
+			public const int button_deliver = 2131165302;
+			
 			// aapt resource value: 0x7f070075
 			public const int button_pick_up = 2131165301;
 			

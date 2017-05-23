@@ -35,7 +35,7 @@ namespace PizzaClient
             cv.textViewPizza.Text = pedidoList[position].pizza;
 			cv.textViewId.Text = "Id de pedido: " + id;
             cv.textViewDir.Text = pedidoList[position].direccion;
-            cv.textViewEstado.Text = pedidoList[position].pizza;
+            cv.textViewEstado.Text = pedidoList[position].estado;
 		}
 
 

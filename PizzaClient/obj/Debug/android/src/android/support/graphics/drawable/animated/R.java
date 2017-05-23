@@ -1758,7 +1758,7 @@ containing a value of this type.
         public static int notification_template_icon_bg=0x7f02004d;
     }
     public static final class id {
-        public static int action0=0x7f07005e;
+        public static int action0=0x7f070060;
         public static int action_bar=0x7f070042;
         public static int action_bar_activity_content=0x7f070001;
         public static int action_bar_container=0x7f070041;
@@ -1767,7 +1767,7 @@ containing a value of this type.
         public static int action_bar_subtitle=0x7f070023;
         public static int action_bar_title=0x7f070022;
         public static int action_context_bar=0x7f070043;
-        public static int action_divider=0x7f070062;
+        public static int action_divider=0x7f070064;
         public static int action_menu_divider=0x7f070003;
         public static int action_menu_presenter=0x7f070004;
         public static int action_mode_bar=0x7f07003f;
@@ -1780,9 +1780,11 @@ containing a value of this type.
         public static int btnClearLL=0x7f070059;
         public static int btnLoginLL=0x7f070058;
         public static int buttonPanel=0x7f07002c;
-        public static int cancel_action=0x7f07005f;
+        public static int button_deliver=0x7f070076;
+        public static int button_pick_up=0x7f070075;
+        public static int cancel_action=0x7f070061;
         public static int checkbox=0x7f07003a;
-        public static int chronometer=0x7f070065;
+        public static int chronometer=0x7f070067;
         public static int collapseActionView=0x7f07001e;
         public static int contentPanel=0x7f070032;
         public static int custom=0x7f070038;
@@ -1792,7 +1794,7 @@ containing a value of this type.
         public static int disableHome=0x7f07000d;
         public static int edit_query=0x7f070044;
         public static int end=0x7f07001b;
-        public static int end_padder=0x7f07006a;
+        public static int end_padder=0x7f07006c;
         public static int expand_activities_button=0x7f070026;
         public static int expanded_menu=0x7f070039;
         public static int home=0x7f070005;
@@ -1800,17 +1802,17 @@ containing a value of this type.
         public static int icon=0x7f07002a;
         public static int ifRoom=0x7f07001f;
         public static int image=0x7f070027;
-        public static int image_view_pedidos=0x7f07005d;
-        public static int info=0x7f070069;
+        public static int image_view_pedidos=0x7f07005f;
+        public static int info=0x7f07006b;
         public static int item_touch_helper_previous_elevation=0x7f070000;
         public static int lblPassword=0x7f070055;
         public static int lblUsername=0x7f070053;
-        public static int line1=0x7f070063;
-        public static int line3=0x7f070067;
+        public static int line1=0x7f070065;
+        public static int line3=0x7f070069;
         public static int linearLayoutBtns=0x7f070057;
         public static int listMode=0x7f07000a;
         public static int list_item=0x7f070029;
-        public static int media_actions=0x7f070061;
+        public static int media_actions=0x7f070063;
         public static int middle=0x7f07001c;
         public static int multiply=0x7f070015;
         public static int never=0x7f070020;
@@ -1845,16 +1847,26 @@ containing a value of this type.
         public static int src_atop=0x7f070017;
         public static int src_in=0x7f070018;
         public static int src_over=0x7f070019;
-        public static int status_bar_latest_event_content=0x7f070060;
+        public static int status_bar_latest_event_content=0x7f070062;
         public static int submit_area=0x7f07004d;
         public static int tabMode=0x7f07000c;
-        public static int text=0x7f070068;
-        public static int text2=0x7f070066;
+        public static int text=0x7f07006a;
+        public static int text2=0x7f070068;
         public static int textSpacerNoButtons=0x7f070035;
-        public static int textView1=0x7f07005a;
-        public static int textView2=0x7f07005b;
-        public static int textView3=0x7f07005c;
-        public static int time=0x7f070064;
+        public static int textView1=0x7f07005b;
+        public static int textView2=0x7f07005c;
+        public static int textView3=0x7f07005d;
+        public static int textView4=0x7f07005a;
+        public static int textView5=0x7f07005e;
+        public static int text_view_address=0x7f070074;
+        public static int text_view_client=0x7f070072;
+        public static int text_view_pizza=0x7f07006e;
+        public static int text_view_status=0x7f070070;
+        public static int text_view_status_pizza=0x7f07006f;
+        public static int text_view_title_address=0x7f070073;
+        public static int text_view_title_client=0x7f070071;
+        public static int text_view_title_pizza=0x7f07006d;
+        public static int time=0x7f070066;
         public static int title=0x7f07002b;
         public static int titleLogin=0x7f070052;
         public static int title_template=0x7f070030;
@@ -1913,10 +1925,11 @@ containing a value of this type.
         public static int notification_template_media=0x7f040024;
         public static int notification_template_part_chronometer=0x7f040025;
         public static int notification_template_part_time=0x7f040026;
-        public static int select_dialog_item_material=0x7f040027;
-        public static int select_dialog_multichoice_material=0x7f040028;
-        public static int select_dialog_singlechoice_material=0x7f040029;
-        public static int support_simple_spinner_dropdown_item=0x7f04002a;
+        public static int order_detail_activity=0x7f040027;
+        public static int select_dialog_item_material=0x7f040028;
+        public static int select_dialog_multichoice_material=0x7f040029;
+        public static int select_dialog_singlechoice_material=0x7f04002a;
+        public static int support_simple_spinner_dropdown_item=0x7f04002b;
     }
     public static final class mipmap {
         public static int icon=0x7f030000;

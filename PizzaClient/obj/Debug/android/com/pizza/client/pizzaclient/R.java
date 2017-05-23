@@ -1780,6 +1780,7 @@ containing a value of this type.
         public static final int btnClearLL=0x7f070059;
         public static final int btnLoginLL=0x7f070058;
         public static final int buttonPanel=0x7f07002c;
+        public static final int button_deliver=0x7f070076;
         public static final int button_pick_up=0x7f070075;
         public static final int cancel_action=0x7f070061;
         public static final int checkbox=0x7f07003a;
