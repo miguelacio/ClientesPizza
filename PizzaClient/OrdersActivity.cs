@@ -36,7 +36,7 @@ namespace PizzaClient
             mLayoutManager = new LinearLayoutManager(this);
             mRecyclerView.SetLayoutManager(mLayoutManager);
 
-            var progressDialog = ProgressDialog.Show(this, "Espere un momento", "Obteniendo pizzas", true);
+            var progressDialog = ProgressDialog.Show(this, "Espere un momento", "Obteniendo órdenes", true);
             new System.Threading.Thread(new ThreadStart(delegate
             {
                 RunOnUiThread(async () =>
@@ -63,7 +63,7 @@ namespace PizzaClient
             {
                 var content = await response.Content.ReadAsStringAsync();
                 var items = JsonConvert.DeserializeObject<List<Pedido>>(content);
-                Toast.MakeText(this, "petición exitosa", ToastLength.Long).Show();
+                Toast.MakeText(this, "Petición exitosa", ToastLength.Long).Show();
                 return items;
 
             }

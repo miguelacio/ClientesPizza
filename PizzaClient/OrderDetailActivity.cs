@@ -63,7 +63,30 @@ namespace PizzaClient
 
         private void DeliverOrder()
         {
-            throw new NotImplementedException();
+			var progressDialog = ProgressDialog.Show(this, "Espere un momento", "Entregando  orden", true);
+			new System.Threading.Thread(new ThreadStart(delegate
+			{
+				RunOnUiThread(async () =>
+				{
+					string url = "http://segundoproyecto.azurewebsites.net/api/pedidosapi/" + id; ;
+					Pedido p = currentPedido;
+					p.estado = "Entregado";
+					if (_currentLocation != null)
+					{
+						p.Repartidor_latitud = _currentLocation.Latitude;
+						p.Repartidor_longitud = _currentLocation.Longitude;
+					}
+					JsonValue json = await makeJSONRequest(url, p);
+
+
+
+					progressDialog.Dismiss();
+
+				}
+				);
+			})).Start();
+
+			MakeMainRequest(id);
         }
 
         private void MakeMainRequest(string id)
@@ -121,15 +144,16 @@ namespace PizzaClient
 			switch (currentPedido.estado)
 			{
 
-				case "En Camino":
+				case "Entregado":
+					buttonPickUp.Enabled = false;
+					break;
+				case "En camino":
                     buttonPickUp.Enabled = false;
-
+                    buttonDeliver.Enabled = false;
 					break;
 				case "Terminado":
-                    buttonDeliver.Enabled = false;
-					
+                    buttonDeliver.Enabled = false;		
 					break;
-
 				default:
 					buttonPickUp.Enabled = false;
 					buttonDeliver.Enabled = false;
@@ -178,7 +202,7 @@ namespace PizzaClient
 			{
 				var content = await response.Content.ReadAsStringAsync();
                 var item = JsonConvert.DeserializeObject<Pedido>(content);
-				Toast.MakeText(this, "Success", ToastLength.Long).Show();
+				Toast.MakeText(this, "Petición exitosa", ToastLength.Long).Show();
 				return item;
 
 			}
@@ -191,7 +215,7 @@ namespace PizzaClient
 
 		public override void OnBackPressed()
 		{
-            if (currentPedido.estado == "En Camino")
+            if (currentPedido.estado == "En camino")
             {
                 Toast.MakeText(this, "No puedes salirte mientras tengas un pedido en camino.", ToastLength.Long).Show();
             }
@@ -213,11 +237,24 @@ namespace PizzaClient
 			{
 
 				Toast.MakeText(this, string.Format("{0:f6},{1:f6}", _currentLocation.Latitude, _currentLocation.Longitude), ToastLength.Long).Show();
+				if (currentPedido.estado == "En camino")
+				{
+                    Pedido p = currentPedido;
+                    p.Repartidor_latitud = _currentLocation.Latitude;
+                    p.Repartidor_longitud = _currentLocation.Longitude;
+                    string url = "http://segundoproyecto.azurewebsites.net/api/pedidosapi/" + id; ;
+                    requestHelperAsync(p, url);
+				} 
 
 			}
 		}
 
-		public void OnProviderDisabled(string provider) { }
+        private async Task requestHelperAsync(Pedido p, string url)
+        {
+            JsonValue json = await makeJSONRequest(url, p);
+        }
+
+        public void OnProviderDisabled(string provider) { }
 
 		public void OnProviderEnabled(string provider) { }
 

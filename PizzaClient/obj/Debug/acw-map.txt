@@ -2,10 +2,6 @@ PizzaClient.MainActivity, PizzaClient;md540f28988792b160183d98f136088fc28.MainAc
 PizzaClient.MainActivity, PizzaClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md540f28988792b160183d98f136088fc28.MainActivity
 PizzaClient.MainActivity;md540f28988792b160183d98f136088fc28.MainActivity
 pizzaclient.MainActivity;md540f28988792b160183d98f136088fc28.MainActivity
-PizzaClient.PizzasActivity, PizzaClient;md540f28988792b160183d98f136088fc28.PizzasActivity
-PizzaClient.PizzasActivity, PizzaClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md540f28988792b160183d98f136088fc28.PizzasActivity
-PizzaClient.PizzasActivity;md540f28988792b160183d98f136088fc28.PizzasActivity
-pizzaclient.PizzasActivity;md540f28988792b160183d98f136088fc28.PizzasActivity
 PizzaClient.PizzaAdapter, PizzaClient;md540f28988792b160183d98f136088fc28.PizzaAdapter
 PizzaClient.PizzaAdapter, PizzaClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md540f28988792b160183d98f136088fc28.PizzaAdapter
 PizzaClient.PizzaAdapter;md540f28988792b160183d98f136088fc28.PizzaAdapter

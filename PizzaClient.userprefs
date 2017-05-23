@@ -1,15 +1,13 @@
 ﻿<Properties StartupConfiguration="{5B85CA15-1FAE-45C2-992F-BB2CE5BD7EC7}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="PizzaClient/OrderDetailActivity.cs">
     <Files>
-      <File FileName="PizzaClient/OrderDetailActivity.cs" Line="87" Column="21" />
+      <File FileName="PizzaClient/OrderDetailActivity.cs" Line="254" Column="52" />
       <File FileName="PizzaClient/Pedido.cs" Line="9" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/jesusmiguelflores/Projects/ClientesPizza/PizzaClient/OrderDetailActivity.cs" relfile="PizzaClient/OrderDetailActivity.cs" line="131" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
