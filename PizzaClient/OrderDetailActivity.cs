@@ -144,7 +144,7 @@ namespace PizzaClient
 			switch (currentPedido.estado)
 			{
 
-				case "Entregado":
+				case "Aceptado":
 					buttonPickUp.Enabled = false;
 					break;
 				case "En camino":
@@ -215,7 +215,7 @@ namespace PizzaClient
 
 		public override void OnBackPressed()
 		{
-            if (currentPedido.estado == "En camino")
+            if (currentPedido.estado == "En Camino")
             {
                 Toast.MakeText(this, "No puedes salirte mientras tengas un pedido en camino.", ToastLength.Long).Show();
             }
