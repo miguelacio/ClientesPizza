@@ -7,7 +7,7 @@ namespace PizzaClient
 	[Activity(Label = "PizzaClient", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{
-		ImageView imageViewPedir, imageViewPedidos;
+		ImageView imageViewPedidos;
 
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
@@ -18,10 +18,11 @@ namespace PizzaClient
 
 			// Get our button from the layout resource,
 			// and attach an event to it
-			imageViewPedir = FindViewById<ImageView>(Resource.Id.image_view_pedir);
+			//imageViewPedir = FindViewById<ImageView>(Resource.Id.image_view_pedir);
 			imageViewPedidos = FindViewById<ImageView>(Resource.Id.image_view_pedidos);
 
-			imageViewPedir.Click += delegate { StartActivity(typeof(PizzasActivity)); };
+			//imageViewPedir.Click += delegate { StartActivity(typeof(PizzasActivity)); };
+			imageViewPedidos.Click += delegate { StartActivity(typeof(OrdersActivity)); };
 		}
 	}
 }

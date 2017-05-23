@@ -1,11 +1,9 @@
 ﻿<Properties StartupConfiguration="{5B85CA15-1FAE-45C2-992F-BB2CE5BD7EC7}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="PizzaClient/MainActivity.cs">
     <Files>
-      <File FileName="PizzaClient/PizzasActivity.cs" Line="89" Column="62" />
-      <File FileName="PizzaClient/MainActivity.cs" Line="12" Column="35" />
-      <File FileName="PizzaClient/PizzaAdapter.cs" Line="39" Column="106" />
-      <File FileName="PizzaClient/Pedido.cs" Line="12" Column="45" />
-      <File FileName="PizzaClient/Pizza.cs" Line="11" Column="44" />
+      <File FileName="PizzaClient/OrdersActivity.cs" Line="66" Column="6" />
+      <File FileName="PizzaClient/OrderDetailActivity.cs" Line="19" Column="19" />
+      <File FileName="PizzaClient/MainActivity.cs" Line="6" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -14,5 +12,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.PizzaClient AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.9885e64c4c3255354d" />
+  <MonoDevelop.Ide.ItemProperties.PizzaClient AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus_5X_API_23" />
 </Properties>

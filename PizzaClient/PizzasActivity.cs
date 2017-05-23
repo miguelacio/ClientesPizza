@@ -135,7 +135,9 @@ namespace PizzaClient
 					);
 				})).Start();
 
+				builder.Dismiss();
 
+				StartActivity(typeof(MainActivity));
 			};
 
             button.Click += delegate

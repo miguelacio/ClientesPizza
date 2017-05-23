@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <ImageView
-        android:layout_marginTop="40dp"
-        android:id="@+id/image_view_pedir"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_local_pizza_white_48dp" />
-    <ImageView
-        android:layout_marginTop="40dp"
+        android:layout_centerInParent="true"
         android:id="@+id/image_view_pedidos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_shopping_cart_white_48dp" />
-</LinearLayout>
+        android:src="@drawable/ic_local_pizza_white_48dp" />
+</RelativeLayout>

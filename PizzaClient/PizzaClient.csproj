@@ -81,6 +81,9 @@
     <Compile Include="PizzaAdapter.cs" />
     <Compile Include="Pizza.cs" />
     <Compile Include="Pedido.cs" />
+    <Compile Include="OrdersActivity.cs" />
+    <Compile Include="PedidoAdapter.cs" />
+    <Compile Include="OrderDetailActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -101,6 +104,9 @@
     <AndroidResource Include="Resources\layout\activity_pizzas.xml" />
     <AndroidResource Include="Resources\layout\item_layout_pizza.xml" />
     <AndroidResource Include="Resources\layout\dialog_item_layout.xml" />
+    <AndroidResource Include="Resources\layout\activity_orders.xml" />
+    <AndroidResource Include="Resources\layout\item_layout_pedido.xml" />
+    <AndroidResource Include="Resources\layout\order_detail_activity.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

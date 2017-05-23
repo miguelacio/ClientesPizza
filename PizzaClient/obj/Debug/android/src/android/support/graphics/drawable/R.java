@@ -1801,7 +1801,6 @@ containing a value of this type.
         public static int ifRoom=0x7f07001f;
         public static int image=0x7f070027;
         public static int image_view_pedidos=0x7f07005d;
-        public static int image_view_pedir=0x7f07005c;
         public static int info=0x7f070069;
         public static int item_touch_helper_previous_elevation=0x7f070000;
         public static int lblPassword=0x7f070055;
@@ -1854,6 +1853,7 @@ containing a value of this type.
         public static int textSpacerNoButtons=0x7f070035;
         public static int textView1=0x7f07005a;
         public static int textView2=0x7f07005b;
+        public static int textView3=0x7f07005c;
         public static int time=0x7f070064;
         public static int title=0x7f07002b;
         public static int titleLogin=0x7f070052;
@@ -1899,22 +1899,24 @@ containing a value of this type.
         public static int abc_search_dropdown_item_icons_2line=0x7f040016;
         public static int abc_search_view=0x7f040017;
         public static int abc_select_dialog_material=0x7f040018;
-        public static int activity_pizzas=0x7f040019;
-        public static int dialog_item_layout=0x7f04001a;
-        public static int item_layout_pizza=0x7f04001b;
-        public static int main=0x7f04001c;
-        public static int notification_media_action=0x7f04001d;
-        public static int notification_media_cancel_action=0x7f04001e;
-        public static int notification_template_big_media=0x7f04001f;
-        public static int notification_template_big_media_narrow=0x7f040020;
-        public static int notification_template_lines=0x7f040021;
-        public static int notification_template_media=0x7f040022;
-        public static int notification_template_part_chronometer=0x7f040023;
-        public static int notification_template_part_time=0x7f040024;
-        public static int select_dialog_item_material=0x7f040025;
-        public static int select_dialog_multichoice_material=0x7f040026;
-        public static int select_dialog_singlechoice_material=0x7f040027;
-        public static int support_simple_spinner_dropdown_item=0x7f040028;
+        public static int activity_orders=0x7f040019;
+        public static int activity_pizzas=0x7f04001a;
+        public static int dialog_item_layout=0x7f04001b;
+        public static int item_layout_pedido=0x7f04001c;
+        public static int item_layout_pizza=0x7f04001d;
+        public static int main=0x7f04001e;
+        public static int notification_media_action=0x7f04001f;
+        public static int notification_media_cancel_action=0x7f040020;
+        public static int notification_template_big_media=0x7f040021;
+        public static int notification_template_big_media_narrow=0x7f040022;
+        public static int notification_template_lines=0x7f040023;
+        public static int notification_template_media=0x7f040024;
+        public static int notification_template_part_chronometer=0x7f040025;
+        public static int notification_template_part_time=0x7f040026;
+        public static int select_dialog_item_material=0x7f040027;
+        public static int select_dialog_multichoice_material=0x7f040028;
+        public static int select_dialog_singlechoice_material=0x7f040029;
+        public static int support_simple_spinner_dropdown_item=0x7f04002a;
     }
     public static final class mipmap {
         public static int icon=0x7f030000;
