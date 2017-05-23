@@ -1780,6 +1780,7 @@ containing a value of this type.
         public static final int btnClearLL=0x7f070059;
         public static final int btnLoginLL=0x7f070058;
         public static final int buttonPanel=0x7f07002c;
+        public static final int button_pick_up=0x7f070075;
         public static final int cancel_action=0x7f070061;
         public static final int checkbox=0x7f07003a;
         public static final int chronometer=0x7f070067;
@@ -1856,9 +1857,13 @@ containing a value of this type.
         public static final int textView3=0x7f07005d;
         public static final int textView4=0x7f07005a;
         public static final int textView5=0x7f07005e;
+        public static final int text_view_address=0x7f070074;
+        public static final int text_view_client=0x7f070072;
         public static final int text_view_pizza=0x7f07006e;
         public static final int text_view_status=0x7f070070;
         public static final int text_view_status_pizza=0x7f07006f;
+        public static final int text_view_title_address=0x7f070073;
+        public static final int text_view_title_client=0x7f070071;
         public static final int text_view_title_pizza=0x7f07006d;
         public static final int time=0x7f070066;
         public static final int title=0x7f07002b;

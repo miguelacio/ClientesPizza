@@ -65,3 +65,4 @@
 /Users/jesusmiguelflores/Projects/ClientesPizza/PizzaClient/obj/Debug/R.cs.flag
 /Users/jesusmiguelflores/Projects/ClientesPizza/PizzaClient/obj/Debug/uploadflags.txt
 /Users/jesusmiguelflores/Projects/ClientesPizza/PizzaClient/obj/Debug/res/layout/order_detail_activity.xml
+/Users/jesusmiguelflores/Projects/ClientesPizza/PizzaClient/obj/Debug/PizzaClient.csprojResolveAssemblyReference.cache

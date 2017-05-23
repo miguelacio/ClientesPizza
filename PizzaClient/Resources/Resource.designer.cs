@@ -1600,6 +1600,9 @@ namespace PizzaClient
 			// aapt resource value: 0x7f07002c
 			public const int buttonPanel = 2131165228;
 			
+			// aapt resource value: 0x7f070075
+			public const int button_pick_up = 2131165301;
+			
 			// aapt resource value: 0x7f070061
 			public const int cancel_action = 2131165281;
 			
@@ -1828,6 +1831,12 @@ namespace PizzaClient
 			// aapt resource value: 0x7f07005e
 			public const int textView5 = 2131165278;
 			
+			// aapt resource value: 0x7f070074
+			public const int text_view_address = 2131165300;
+			
+			// aapt resource value: 0x7f070072
+			public const int text_view_client = 2131165298;
+			
 			// aapt resource value: 0x7f07006e
 			public const int text_view_pizza = 2131165294;
 			
@@ -1836,6 +1845,12 @@ namespace PizzaClient
 			
 			// aapt resource value: 0x7f07006f
 			public const int text_view_status_pizza = 2131165295;
+			
+			// aapt resource value: 0x7f070073
+			public const int text_view_title_address = 2131165299;
+			
+			// aapt resource value: 0x7f070071
+			public const int text_view_title_client = 2131165297;
 			
 			// aapt resource value: 0x7f07006d
 			public const int text_view_title_pizza = 2131165293;
