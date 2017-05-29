@@ -251,7 +251,8 @@ namespace PizzaClient
 
         private async Task requestHelperAsync(Pedido p, string url)
         {
-            JsonValue json = await makeJSONRequest(url, p);
+            JsonValue json = await makeJSONRequest(
+				url, p);
         }
 
         public void OnProviderDisabled(string provider) { }

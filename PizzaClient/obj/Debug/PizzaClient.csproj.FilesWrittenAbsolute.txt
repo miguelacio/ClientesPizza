@@ -30,3 +30,4 @@
 /Users/jesusmiguelflores/Projects/ClientesPizza/PizzaClient/bin/Debug/Newtonsoft.Json.dll
 /Users/jesusmiguelflores/Projects/ClientesPizza/PizzaClient/bin/Debug/Newtonsoft.Json.Schema.dll
 /Users/jesusmiguelflores/Projects/ClientesPizza/PizzaClient/obj/Debug/res/layout/item_layout_pedido.xml
+/Users/jesusmiguelflores/Projects/ClientesPizza/PizzaClient/obj/Debug/res/layout/order_detail_activity.xml
